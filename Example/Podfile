@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RNLibreToolsiOS_Test_Tests' do
+  pod 'RNLibreToolsiOS_Test', :path => '../'
+  
+  
+end
