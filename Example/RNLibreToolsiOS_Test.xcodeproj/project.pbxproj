@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		0CDFAA2DD62A8D4673CE6B34 /* Pods_RNLibreToolsiOS_Test_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNLibreToolsiOS_Test_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18B0CF83C449CF23B32A58FF /* RNLibreToolsiOS_Test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RNLibreToolsiOS_Test.podspec; path = ../RNLibreToolsiOS_Test.podspec; sourceTree = "<group>"; };
+		18B0CF83C449CF23B32A58FF /* RNLibreToolsiOS_Test.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RNLibreToolsiOS_Test.podspec; path = ../RNLibreToolsiOS_Test.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		376D87ABCFB819C3BF2697F4 /* Pods-RNLibreToolsiOS_Test_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLibreToolsiOS_Test_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RNLibreToolsiOS_Test_Tests/Pods-RNLibreToolsiOS_Test_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RNLibreToolsiOS_Test_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNLibreToolsiOS_Test_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		87CE9B38A9C462EC0458C193 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9B54EEBD6996928AAFC93FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87CE9B38A9C462EC0458C193 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B54EEBD6996928AAFC93FC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B773F82EC6C1191596D18DE7 /* Pods-RNLibreToolsiOS_Test_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNLibreToolsiOS_Test_Tests.release.xcconfig"; path = "Target Support Files/Pods-RNLibreToolsiOS_Test_Tests/Pods-RNLibreToolsiOS_Test_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,6 @@
 				376D87ABCFB819C3BF2697F4 /* Pods-RNLibreToolsiOS_Test_Tests.debug.xcconfig */,
 				B773F82EC6C1191596D18DE7 /* Pods-RNLibreToolsiOS_Test_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
